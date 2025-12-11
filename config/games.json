@@ -280,6 +280,11 @@
     "title": "Flash Tetris"
   },
   {
+    "link": "projects/FNAF1/index.html",
+    "imgSrc": "projects/FNAF1/flashtetris.png",
+    "title": "FNAF1"
+  },
+  {
     "link": "projects/game-inside/index.html",
     "imgSrc": "projects/game-inside/img/display.png",
     "title": "Game Inside a Game Inside a Game..."
