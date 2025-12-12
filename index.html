@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Samuel Powell Game Site</title>
   </head>
-  <body style="background-color: #121212; color: #ffffff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 100vh;">
+  <body style="background-color: #121212; color: #ffffff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; min-height: 100vh;">
 
     <!-- Top Content -->
     <div style="text-align: center; margin-top: 50px;">
@@ -30,28 +30,32 @@
           <button style="cursor: pointer; background-color: #b625cc; border: none; color: white; padding: 15px 32px; text-align: center; display: inline-block; font-size: 16px; border-radius: 20px; margin-top: 5px;">Tools and settings</button>
         </a>
       </p>
+
+      <!-- Google Doc Link & Alternate Site (Below buttons) -->
+      <div style="margin-top: 30px; text-align: center;">
+        <!-- Google Doc Link -->
+        <div style="margin-bottom: 15px;">
+          <a href="https://docs.google.com/document/d/1I-5J5pqc16iXNPGV8AJcTKWbK8iIBAKE57wX6n1ah5Y/edit?usp=sharing" target="_blank" 
+             style="color: #22c55e; font-size: 1.2em; text-decoration: underline;">
+            proxy list (unblockers kinda) and lots of games (the doc doesnt steal info- google is just stupid)
+          </a>
+        </div>
+
+        <!-- Alternate Site Section -->
+        <div style="margin: 10px auto;">
+          <p style="font-size: 1.2em;">bookmark/copy this alternate site for when this gets blocked</p>
+          <input type="text" id="altSite" value="https://you-cant-stop-samuelpowell.netlify.app" readonly
+                 style="width: 300px; padding: 10px; font-size: 16px; border-radius: 8px; border: none;">
+          <button onclick="copyAltSite()"
+                  style="padding: 10px 20px; font-size: 16px; margin-left: 10px; cursor: pointer; border-radius: 8px; background-color: #22c55e; color: white; border: none;">
+            Copy
+          </button>
+        </div>
+
+        <p style="font-size: 0.9em; color: #888;">thank samuel for this fr</p>
+      </div>
+
     </div>
-        <footer style="text-align: center; width: 100%; margin-bottom: 20px;">
-      <!-- Google Doc Link -->
-      <div style="margin-bottom: 15px;">
-        <a href="https://docs.google.com/document/d/1I-5J5pqc16iXNPGV8AJcTKWbK8iIBAKE57wX6n1ah5Y/edit?usp=sharing" target="_blank" 
-           style="color: #22c55e; font-size: 1.2em; text-decoration: underline;">
-          proxy list (unblockers kinda) and lots of games (the doc doesnt steal info- google is just stupid)
-        </a>
-      </div>
-            <div style="margin: 10px auto;">
-        <p style="font-size: 1.2em;">bookmark/copy this alternate site for when this gets blocked</p>
-        <input type="text" id="altSite" value="https://you-cant-stop-samuelpowell.netlify.app" readonly
-               style="width: 300px; padding: 10px; font-size: 16px; border-radius: 8px; border: none;">
-        <button onclick="copyAltSite()"
-                style="padding: 10px 20px; font-size: 16px; margin-left: 10px; cursor: pointer; border-radius: 8px; background-color: #22c55e; color: white; border: none;">
-          Copy
-        </button>
-      </div>
-          
-      <footer style="text-align: center; width: 100%; margin-bottom: 20px;">
-      <p style="font-size: 0.9em; color: #888;">thank samuel for this fr</p>
-    </footer>
 
     <script src="/js/main.js"></script>
     <script src="/js/subtitle.js"></script>
